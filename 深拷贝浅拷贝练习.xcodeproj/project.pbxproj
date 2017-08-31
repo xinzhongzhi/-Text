@@ -15,6 +15,7 @@
 		C48330E41F57AD3300B04CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48330E21F57AD3300B04CD8 /* LaunchScreen.storyboard */; };
 		C48330EF1F57AD3300B04CD8 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C48330EE1F57AD3300B04CD8 /* ________Tests.m */; };
 		C48330FA1F57AD3300B04CD8 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C48330F91F57AD3300B04CD8 /* ________UITests.m */; };
+		C48331091F57B49B00B04CD8 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = C48331081F57B49B00B04CD8 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C48330F51F57AD3300B04CD8 /* 深拷贝浅拷贝练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "深拷贝浅拷贝练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48330F91F57AD3300B04CD8 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		C48330FB1F57AD3300B04CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48331071F57B49B00B04CD8 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		C48331081F57B49B00B04CD8 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C48330D81F57AD3300B04CD8 /* AppDelegate.m */,
 				C48330DA1F57AD3300B04CD8 /* ViewController.h */,
 				C48330DB1F57AD3300B04CD8 /* ViewController.m */,
+				C48331071F57B49B00B04CD8 /* person.h */,
+				C48331081F57B49B00B04CD8 /* person.m */,
 				C48330DD1F57AD3300B04CD8 /* Main.storyboard */,
 				C48330E01F57AD3300B04CD8 /* Assets.xcassets */,
 				C48330E21F57AD3300B04CD8 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				C48330DC1F57AD3300B04CD8 /* ViewController.m in Sources */,
 				C48330D91F57AD3300B04CD8 /* AppDelegate.m in Sources */,
+				C48331091F57B49B00B04CD8 /* person.m in Sources */,
 				C48330D61F57AD3300B04CD8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
